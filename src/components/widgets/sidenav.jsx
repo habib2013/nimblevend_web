@@ -48,7 +48,7 @@ function SideNav(props) {
 
         <li className="sidebar-item">
           <a href="#auth" className="sidebar-link">
-            <i className="align-middle" data-feather="folder-plus" /> <span className="align-middle">Reports</span>
+            <i className="align-middle" data-feather="activity" /> <span className="align-middle">Reports</span>
           </a>
         </li>
 
@@ -57,54 +57,16 @@ function SideNav(props) {
             <i className="align-middle" data-feather="radio" /> <span className="align-middle">Marketing</span>
           </a>
           <ul id="documentation" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-            <li className="sidebar-item"><a className="sidebar-link" href="docs-introduction.html">Introduction</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="docs-installation.html">Getting Started</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="docs-customization.html">Customization</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="docs-plugins.html">Plugins</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="docs-changelog.html">Changelog</a></li>
-          </ul>
+            <li className="sidebar-item"><a className="sidebar-link" href="docs-introduction.html">Discount coupon</a></li>
+            <li className="sidebar-item"><a className="sidebar-link" href="docs-installation.html">Automated Email</a></li>
+            <li className="sidebar-item"><a className="sidebar-link" href="docs-installation.html">Twitter</a></li>
+        
+         </ul>
         </li>
         <li className="sidebar-header">
-          Tools &amp; Components
+          Sales &amp; Channel
         </li>
-        <li className="sidebar-item">
-          <a href="#ui" data-toggle="collapse" className="sidebar-link collapsed">
-            <i className="align-middle" data-feather="grid" /> <span className="align-middle">UI Elements</span>
-          </a>
-          <ul id="ui" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-alerts.html">Alerts</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-buttons.html">Buttons</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-cards.html">Cards</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-carousel.html">Carousel</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-embed-video.html">Embed Video</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-general.html">General <span className="badge badge-sidebar-primary">10+</span></a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-grid.html">Grid</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-modals.html">Modals</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-tabs.html">Tabs</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="ui-typography.html">Typography</a></li>
-          </ul>
-        </li>
-        <li className="sidebar-item">
-          <a href="#icons" data-toggle="collapse" className="sidebar-link collapsed">
-            <i className="align-middle" data-feather="heart" /> <span className="align-middle">Icons</span>
-            <span className="badge badge-sidebar-primary">1500+</span>
-          </a>
-          <ul id="icons" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-            <li className="sidebar-item"><a className="sidebar-link" href="icons-feather.html">Feather</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="icons-font-awesome.html">Font Awesome</a></li>
-          </ul>
-        </li>
-        <li className="sidebar-item">
-          <a href="#forms" data-toggle="collapse" className="sidebar-link collapsed">
-            <i className="align-middle" data-feather="check-square" /> <span className="align-middle">Forms</span>
-          </a>
-          <ul id="forms" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-            <li className="sidebar-item"><a className="sidebar-link" href="forms-layouts.html">Layouts</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="forms-basic-inputs.html">Basic Inputs</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="forms-input-groups.html">Input Groups</a></li>
-          </ul>
-        </li>
-        <li className="sidebar-item">
+       <li className="sidebar-item">
           <a className="sidebar-link" href="tables-bootstrap.html">
             <i className="align-middle" data-feather="list" /> <span className="align-middle">Tables</span>
           </a>
