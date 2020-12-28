@@ -29,7 +29,7 @@ function DashboardMain(props) {
           </div>
         </div>
         <div className="row">
-        <div className="col-md-3 col-xxl-3 d-flex">
+        <div className="col-md-4 col-xxl-3 d-flex">
             <div className="card illustration flex-fill">
               <div className="card-body p-0 d-flex flex-fill">
                 <div className="row no-gutters w-100">
@@ -47,7 +47,7 @@ function DashboardMain(props) {
             </div>
           </div>
       
-          <div className="col-md-3 col-xxl-3 d-flex">
+          <div className="col-md-4 col-xxl-3 d-flex">
             <div className="card flex-fill">
               <div className="card-body">
                 <div className="row">
@@ -68,7 +68,7 @@ function DashboardMain(props) {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-xxl-3 d-flex">
+          <div className="col-md-4 col-xxl-3 d-flex">
             <div className="card flex-fill">
               <div className="card-body">
                 <div className="row">
@@ -89,7 +89,7 @@ function DashboardMain(props) {
               </div>
             </div>
           </div>
-          <div className="col-md-3 col-xxl-3 d-flex">
+          <div className="col-md-4 col-xxl-3 d-flex">
             <div className="card flex-fill">
               <div className="card-body">
                 <div className="row">
@@ -110,6 +110,49 @@ function DashboardMain(props) {
               </div>
             </div>
           </div>
+          <div className="col-md-4 col-xxl-3 d-flex">
+            <div className="card flex-fill">
+              <div className="card-body">
+                <div className="row">
+                  <div className="col mt-0">
+                    <h5 className="card-title">Products view</h5>
+                  </div>
+                  <div className="col-auto">
+                    <div className="stat stat-sm">
+                      <i className="align-middle" data-feather="shopping-cart" />
+                    </div>
+                  </div>
+                </div>
+                <span className="h1 d-inline-block mt-1 mb-3">3</span>
+                <div className="mb-0">
+                  <span className="badge badge-soft-danger mr-2"> <i className="mdi mdi-arrow-bottom-right" /> -4.65% </span>
+                  <span className="text-muted">Since last week</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4 col-xxl-3 d-flex">
+            <div className="card flex-fill">
+              <div className="card-body">
+                <div className="row">
+                  <div className="col mt-0">
+                    <h5 className="card-title">Orders received</h5>
+                  </div>
+                  <div className="col-auto">
+                    <div className="stat stat-sm">
+                      <i className="align-middle" data-feather="activity" />
+                    </div>
+                  </div>
+                </div>
+                <span className="h1 d-inline-block mt-1 mb-3">19.312</span>
+                <div className="mb-0">
+                  <span className="badge badge-soft-success mr-2"> <i className="mdi mdi-arrow-bottom-right" /> 8.35% </span>
+                  <span className="text-muted">Since last week</span>
+                </div>
+              </div>
+            </div>
+          </div>
+           
             </div>
         <div className="row">
           <div className="col-12 col-lg-4 d-flex">
