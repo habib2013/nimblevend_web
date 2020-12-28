@@ -27,48 +27,34 @@ function SideNav(props) {
             </li>
         <li className="sidebar-item">
           <a href="#pages" data-toggle="collapse" className="sidebar-link collapsed">
-            <i className="align-middle" data-feather="wind" /> <span className="align-middle">Sales</span>
+            <i className="align-middle" data-feather="wind" /> <span className="align-middle">My sales</span>
           </a>
           <ul id="pages" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-profile.html">Profile</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-settings.html">Settings</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-clients.html">Clients</a></li>
-            <li className="sidebar-item">
-              <a href="#projects" data-toggle="collapse" className="sidebar-link collapsed">
-                Projects
-              </a>
-              <ul id="projects" className="sidebar-dropdown list-unstyled collapse">
-                <li className="sidebar-item">
-                  <a className="sidebar-link" href="pages-projects-list.html">List</a>
-                </li>
-                <li className="sidebar-item">
-                  <a className="sidebar-link" href="pages-projects-detail.html">Detail <span className="badge badge-sidebar-primary">New</span></a>
-                </li>
-              </ul>
-            </li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-invoice.html">Invoice</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-pricing.html">Pricing</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-tasks.html">Tasks</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-chat.html">Chat <span className="badge badge-sidebar-primary">New</span></a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-blank.html">Blank Page</a></li>
-          </ul>
+            <li className="sidebar-item"><a className="sidebar-link" href="pages-profile.html">Orders</a></li>
+            <li className="sidebar-item"><a className="sidebar-link" href="pages-settings.html">Abandoned carts</a></li>
+            <li className="sidebar-item"><a className="sidebar-link" href="pages-profile.html">Customers</a></li>
+        </ul>
         </li>
         <li className="sidebar-item">
           <a href="#auth" data-toggle="collapse" className="sidebar-link collapsed">
-            <i className="align-middle" data-feather="users" /> <span className="align-middle">Auth</span>
+            <i className="align-middle" data-feather="folder-plus" /> <span className="align-middle">Catalog</span>
             <span className="badge badge-sidebar-secondary">Special</span>
           </a>
           <ul id="auth" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-sign-in.html">Sign In</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-sign-up.html">Sign Up</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-reset-password.html">Reset Password</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-404.html">404 Page</a></li>
-            <li className="sidebar-item"><a className="sidebar-link" href="pages-500.html">500 Page</a></li>
-          </ul>
+            <li className="sidebar-item"><a className="sidebar-link" href="pages-sign-in.html">Products</a></li>
+            <li className="sidebar-item"><a className="sidebar-link" href="pages-sign-up.html">Categories</a></li>
+           </ul>
         </li>
+
+        <li className="sidebar-item">
+          <a href="#auth" className="sidebar-link">
+            <i className="align-middle" data-feather="folder-plus" /> <span className="align-middle">Reports</span>
+          </a>
+        </li>
+
         <li className="sidebar-item">
           <a href="#documentation" data-toggle="collapse" className="sidebar-link collapsed">
-            <i className="align-middle" data-feather="book-open" /> <span className="align-middle">Documentation</span>
+            <i className="align-middle" data-feather="radio" /> <span className="align-middle">Marketing</span>
           </a>
           <ul id="documentation" className="sidebar-dropdown list-unstyled collapse " data-parent="#sidebar">
             <li className="sidebar-item"><a className="sidebar-link" href="docs-introduction.html">Introduction</a></li>
