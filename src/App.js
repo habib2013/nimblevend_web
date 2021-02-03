@@ -1,10 +1,9 @@
-import DashboardOverview from "./components/screens/dashboard_overview";
 
 function App() {
   
   return (
 <div>
-<DashboardOverview/>
+<h1>Hello</h1>
 </div>
 
   );
